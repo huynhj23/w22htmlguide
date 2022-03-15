@@ -1,14 +1,5 @@
 body {
-  background-color: lemonchiffon;
-}
-
-em {
-  color: red;
-  font-style: normal;
-}
-
-h3 {
-  color: green;
+  background-color: rgb(241, 248, 255);
 }
 
 img {
@@ -17,8 +8,55 @@ img {
   border-radius: 25px;
   box-shadow: 10px 10px 20px black;
 }
+.pImg {
+  width: 400px;
+  border-radius: 200px;
+  /* half of width for circular image */
+  float: left;
+  /* forces image to left of text */
+  margin-right: 25px;
+  margin-top: 25px;
+  /* padding for image */
+}
 
 p {
   color: #666666;
   font-family: sans-serif;
+  font-size: 12px;
+}
+
+em {
+  color: rgb(224, 16, 16);
+  font-style: italic;
+}
+
+strong {
+  font-style: italic;
+  font-weight: bold;
+}
+
+h1 {
+  color: pink;
+  font-family: cursive, Luminari, fantasy;
+}
+
+h3 {
+  color: green;
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+.chaos {
+  color: #ff0000;
+}
+
+.law {
+  color: goldenrod;
+}
+
+.product {
+  color: rgb(140, 136, 197);
 }
