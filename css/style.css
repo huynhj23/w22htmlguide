@@ -1,0 +1,24 @@
+body {
+  background-color: lemonchiffon;
+}
+
+em {
+  color: red;
+  font-style: normal;
+}
+
+h3 {
+  color: green;
+}
+
+img {
+  color: blue;
+  width: 200px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 20px black;
+}
+
+p {
+  color: #666666;
+  font-family: sans-serif;
+}
