@@ -79,30 +79,32 @@ h4 {
 .product-box {
   width: 250px;
   height: 250px;
-  float: left;
   border-width: 5px;
   border-color: mintcream;
   border-style: double;
   border-radius: 20px;
 
   padding: 30px;
-  /* top right bottom left */
-  /* top/bottom left/right when doing 2 values */
+
+  display: inline-block;
+  text-align: center; /* centers images */
 }
 
 .clearfix::after {
   content: "";
   clear: both;
-  display: table;
+  display: flex;
 }
 
-/*
 .align {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-*/
+
+.text-align {
+  text-align: center;
+}
 
 .bgimage {
   background-image: url(/img/family.jpg);
