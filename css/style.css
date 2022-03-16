@@ -3,10 +3,10 @@ body {
 }
 
 img {
-  color: blue;
+  color: brown;
   width: 200px;
   border-radius: 25px;
-  box-shadow: 10px 10px 20px black;
+  box-shadow: 0 0 10px 5px black;
 }
 .pImg {
   width: 400px;
@@ -56,17 +56,42 @@ h4 {
 }
 
 .law {
-  color: goldenrod;
+  color: goldenrod; /* color of text AND border */
   background-color: rgb(254, 255, 251);
 }
 
+/* CSS box model */
+
+/*
+  margin: push away from things (outside of box)
+  border:
+  padding: creating space (inside of box)
+  
+  wary of total width and height
+  Margin (2x) + Border (2x) + padding (2x) + box width
+*/
+
 .product {
   color: rgb(140, 136, 197);
+  text-align: center;
+}
+
+.product-box {
+  width: max-content;
+
+  border-width: 5px;
+  border-color: mintcream;
+  border-style: double;
+  border-radius: 20%;
+
+  padding: 0 30px 20px 30px;
+  /* top right bottom left */
+  /* top/bottom left/right when doing 2 values */
 }
 
 div {
   background-color: rgb(206, 231, 255);
-  margin-left: 20px;
+  margin-left: 20px; /* can change to single line */
   margin-right: 20px;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -74,4 +99,7 @@ div {
   padding-bottom: 1px;
   padding-right: 15px;
   border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(152, 205, 255);
 }
