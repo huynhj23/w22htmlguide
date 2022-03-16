@@ -51,12 +51,27 @@ h4 {
 
 .chaos {
   color: #ff0000;
+  background-color: rgb(255, 215, 215);
+  border-radius: 5px;
 }
 
 .law {
   color: goldenrod;
+  background-color: rgb(254, 255, 251);
 }
 
 .product {
   color: rgb(140, 136, 197);
+}
+
+div {
+  background-color: rgb(206, 231, 255);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-left: 15px;
+  padding-bottom: 1px;
+  padding-right: 15px;
+  border-radius: 5px;
 }
